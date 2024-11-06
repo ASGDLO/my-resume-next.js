@@ -7,42 +7,44 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Github, Linkedin, Mail, Phone, Globe, BookOpen } from 'lucide-react'
 import LanguageSwitcher from '@/components/stwitch/LanguageSwitcher';
+import * as PDFIcon from 'lucide-react'; // Import an appropriate icon if desired
 
 export default function Resume() {
   return (
-      <div
-        className="max-w-7xl mx-auto pt-20 px-4 sm:px-12 bg-white"
-        style={{
-          fontFamily: 'Pretendard, sans-serif',
-          fontWeight: 300,
-          wordWrap: 'break-word',
-          wordBreak: 'keep-all',
-          lineHeight: 1.8,
-        }}
-      >
+    <div
+      className="max-w-7xl mx-auto pt-20 px-4 sm:px-12 bg-white"
+      style={{
+        fontFamily: 'Pretendard, sans-serif',
+        fontWeight: 300,
+        wordWrap: 'break-word',
+        wordBreak: 'keep-all',
+        lineHeight: 1.8,
+      }}
+    >
       <header className="flex flex-col sm:flex-row justify-end items-center p-4 space-y-4 sm:space-y-0 sm:space-x-4">
         <LanguageSwitcher />
         {/* Download PDF Button */}
         <Button asChild variant="outline" size="lg">
           <a href="/Resume.pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
             <BookOpen className="mr-2 h-5 w-5" />
-            PDF Download
+            Download PDF
           </a>
         </Button>
       </header>
+
       {/* <Card className="mb-12">
         <CardContent className="pt-8"> */}
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
             <Image
               src="/face/1692036669246(2).jpg"
-              alt="Profile Picture of 이차훈 (Lee Cha Hun)"
+              alt="Profile Picture of Lee Cha Hun"
               width={235}
               height={235}
               className="rounded-full shadow-lg"
             />
             <div className="text-center lg:text-left flex-1">
-              <h1 className="text-4xl font-bold mb-2 text-blue-500">이차훈 (Lee Cha Hun)</h1>
-              <p className="text-2xl text-muted-foreground mb-4">Software Developer</p>
+              <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-blue-500">Lee Cha Hun</h1>
+              <p className="text-xl sm:text-2xl text-muted-foreground mb-4">Software Developer</p>
               <div className="flex flex-wrap justify-center lg:justify-start gap- mb-6">
                 <Badge variant="secondary">Age: 26 (1998.05.04)</Badge>
                 <Badge variant="secondary">Seoul, South Korea</Badge>
@@ -81,7 +83,8 @@ export default function Resume() {
           </p>
         </CardContent>
       </Card>
-      <Card className="mb-8">
+
+    <Card className="mb-8">
       <CardHeader>
         <CardTitle className="text-3xl font-bold text-blue-500">SKILL</CardTitle>
       </CardHeader>
@@ -95,7 +98,7 @@ export default function Resume() {
             </ul>
             <ul className="space-y-2">
               <li>• TypeScript</li>
-              <li>• javascript</li>
+              <li>• JavaScript</li>
             </ul>
             <ul className="space-y-2">
               <li>• HTML/CSS</li>
@@ -177,10 +180,10 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2024.01 ~ 2024.04</p>
               {/* <Badge variant="secondary">3 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Quantec Investment Advisory</h3>
+            <h3 className="text-xl font-bold text-blue-500">Quantec Investment Advisory<span className="text-sm text-gray-500">  (Startup, 53 employees)</span></h3>
             <p className="italic text-muted-foreground">Robo-advisor Automation Developer</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
-              <li>Financial Industry / 2.5 trillion KRW scale robo-advisor startup</li>
+              <li>Financial Industry / 2.5 trillion KRW scale robo-advisor startup </li>
               <li>Automated stock market rebalancing algorithms using Dagster / Cloud-native orchestration framework</li>
               <li>Refactored and optimized execution speed of stock rebalancing algorithms using Scalene</li>
               <li>Designed and managed AWS infrastructure and MySQL database monitoring using Grafana & Prometheus</li>
@@ -205,13 +208,14 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.04 ~ 2023.12</p>
               {/* <Badge variant="secondary">9 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
-            <p className="italic text-muted-foreground">Middleware Infrastructure Engineer for University Hospital Medical Data</p>
+            <h3 className="text-xl font-bold text-blue-500">Werfen <span className="text-sm text-gray-500">  (Foreign company, 57 employees)</span></h3>
+            <p className="italic text-muted-foreground">Middleware Infrastructure Engineer for University Hospital Medical Data </p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>University Hospital Medical Equipment / Blood coagulation, autoimmune disease, testing equipment IT middleware software infrastructure maintenance and management</li>
               <li>Improved usability according to university hospital needs and close communication with overseas partners</li>
               <li>Maintained and managed Kubernetes-based data management system clusters</li>
               <li>Linux server troubleshooting, updates, and monitoring</li>
+
               <li>Skill Keywords</li>
             </ul>
             <div className="flex flex-wrap gap-2 mt-2">
@@ -232,7 +236,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.1 ~ 2023.4</p>
               {/* <Badge variant="secondary">3 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">mobileapp</h3>
+            <h3 className="text-xl font-bold text-blue-500">mobileapp<span className="text-sm text-gray-500">  (Startup, 12 employees)</span></h3>
             <p className="italic text-muted-foreground">Intern</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Collected image training data and model training</li>
@@ -253,13 +257,13 @@ export default function Resume() {
 
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle className="text-blue-500">Projects</CardTitle>
+          <CardTitle className="text-blue-500 text-4xl">Projects</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
             <h3 className="font-semibold text-blue-500">Development and Operation of Quantitative Investment Algorithm</h3>
             <p className="text-sm text-muted-foreground">2024.05 ~ </p>
-            <p className="text-gray-500">crypto-build</p>
+            <p className="text-gray-500">crypto-build (Solo project)</p>
             <p>• Launched Quant investment fund products based on Binance copy trading</p>    
             <p>• Developed logic that receives trading signals via RESTful API and performs automatic trading according to user accounts</p> 
             <p>• Applied Ansible parallel execution on 250 AWS servers for algorithm performance comparison experiments, reducing deployment time by N times</p>  
@@ -291,7 +295,7 @@ export default function Resume() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
-            <p className="text-gray-500">Quantec</p>
+            <p className="text-gray-500">Quantec (Automation team of 3 members)</p>
             <li>Built an orchestration workflow that performs N times monthly rebalancing of U.S. and Korean stocks using Dagster</li>
             <li>Designed ETL tasks for collecting and analyzing stock market data, set up for periodic execution at specified times</li>
             <li>Used Scalene profiler to analyze code execution time and memory usage patterns to optimize the performance of stock rebalancing algorithms</li>
@@ -310,12 +314,13 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500">Built Middleware Infrastructure for Samsung Hospital Medical Data</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
-            <p className="text-gray-500">Werfen</p>
+            <p className="text-gray-500">Werfen (Team of 3 members)</p>
             <li>Implemented high availability by distributing middleware traffic of Kubernetes clusters with NSX-T in VMware environment, and automatically switching traffic upon failure through health checks</li>
             <li>Activated SSH service on ESXi servers using vSphere Client and carried out security settings</li>
             <li>Wrote SQL query commands to activate Oracle DB asynchronous reception and optimized performance</li>
             <li>Fixed format errors in previous queries, prevented performance degradation and timeouts in synchronous mode, improved MultiOnline result reception speed</li>
             <li>Performed regular troubleshooting and software updates to ensure server performance and stability</li>
+
             <Image
               src="/project/1686299560483.jpg"
               alt="Quantitative-trading Service"
@@ -328,7 +333,7 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500">Developed Yolov7 Image Analysis Model</h3>
             <p className="text-sm text-muted-foreground">2023.01 ~ 2023.4</p>
-            <p className="text-gray-500">mobileapp Intern</p>
+            <p className="text-gray-500">mobileapp Intern (AI team of 3 members)</p>
             <p>• Built GPU-based CUDA environment for YOLOv7 model training</p>
             <p>• Collected, processed, and preprocessed data, then split into training/validation/test datasets to perform model training</p>
             <p>• Optimized and validated model performance through hyperparameter tuning and testing on test datasets</p>
@@ -353,6 +358,7 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500"> </h3>
             <p className="text-sm text-muted-foreground">2022.07 ~ 2022.12</p>
+            <p className="text-gray-500">Personal Project</p>
             <p>• Implemented ERC-721 standard-based NFT issuance logic using Solidity</p>
             <p>• Developed user wallet connection and NFT purchase interface by integrating React with MetaMask</p>
             <p>• Built backend using Node.js and Express to manage transaction records and user data, established database with MongoDB</p>
@@ -364,7 +370,7 @@ export default function Resume() {
               width={700}
               height={700}
               className="rounded-lg shadow-md mt-4"
-            />
+          />
           <Separator />
           <div className="flex items-center gap-4"> 
             <h3 className="font-semibold text-blue-500">
@@ -383,7 +389,7 @@ export default function Resume() {
             </Button>
           </div>
           <p className="text-sm text-muted-foreground">2021.12 ~ 2022.02</p>
-          <p className="text-gray-500">AI Silicon Valley Hackathon</p>
+          <p className="text-gray-500">AI Silicon Valley Hackathon (Team of 5 members)</p>
           <p>• Implemented image synthesis function by tuning VGG19 model, handled asynchronous processing through RabbitMQ and Celery, and processed multiple requests stably using CUDA GPU</p>
           <p>• Experienced various server issues such as GPU server overload, increased API request counts, and performance tuning as a backend developer</p>
           <p>• Gained experience as a team leader in setting directions and designs with five developers, and collaborating with other professions</p>
@@ -394,7 +400,7 @@ export default function Resume() {
               width={700}
               height={700}
               className="rounded-lg shadow-md mt-4"
-            />
+          />
         </CardContent>
       </Card>
 
@@ -408,20 +414,18 @@ export default function Resume() {
         
         <CardContent className="space-y-4">
           <div className="flex flex-col">
-            <h4 className="text-lg font-semibold text-blue-600">freqtrade</h4>
-            <p className="text-sm text-muted-foreground mb-2">
-              Contributed to freqtrade open-source project by implementing futures trading features, improving leverage functions, and integrating with TradingView platform
-            </p>
-            <div className="flex space-x-2">
-              <Link href="https://github.com/freqtrade/freqtrade" className="text-blue-500 hover:underline">
-                GitHub
-              </Link>
-              <Link href="https://www.freqtrade.io" className="text-blue-500 hover:underline">
-                Website
-              </Link>
-            </div>
-            <div className="flex flex-wrap gap-2 mt-2">
-            </div>
+              <h4 className="text-lg font-semibold text-blue-600">freqtrade</h4>
+              <p className="text-sm text-muted-foreground mb-2">
+                Contributed to freqtrade open-source project by implementing futures trading features, improving leverage functions, and integrating with TradingView platform
+              </p>
+              <div className="flex space-x-2">
+                <Link href="https://github.com/freqtrade/freqtrade" className="text-blue-500 hover:underline">
+                  GitHub
+                </Link>
+                <Link href="https://www.freqtrade.io" className="text-blue-500 hover:underline">
+                  Website
+                </Link>
+              </div>
           </div>
           {/* Open Source Project 1 */}
           <div className="flex flex-col">
@@ -437,11 +441,6 @@ export default function Resume() {
                 Website
               </Link> */}
             </div>
-            {/* <div className="flex flex-wrap gap-2 mt-2">
-              <Badge variant="outline">React</Badge>
-              <Badge variant="outline">TypeScript</Badge>
-              <Badge variant="outline">Open Source</Badge>
-            </div> */}
           </div>
 
           {/* Open Source Project 2 */}
@@ -517,7 +516,7 @@ function ContactItem({ icon, text }: { icon: React.ReactNode; text: string }) {
 function SocialButton({ href, icon, label }: { href: string; icon: React.ReactElement; label: string }) {
   return (
     <Button variant="outline" size="lg" asChild>
-      <Link href={href}>
+      <Link href={href} className="flex items-center">
         {React.cloneElement(icon, { className: "mr-2 h-5 w-5" })}
         {label}
       </Link>

@@ -180,10 +180,10 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2024.01 ~ 2024.04</p>
               {/* <Badge variant="secondary">3개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">콴텍투자일임</h3>
+            <h3 className="text-xl font-bold text-blue-500">콴텍투자일임<span className="text-sm text-gray-500">  (스타트업 53명)</span></h3>
             <p className="italic text-muted-foreground">로보어드바이저 자동화 개발자</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
-              <li>금융업 / 2.5조 규모 로보어드바이저 스타트업</li>
+              <li>금융업 / 2.5조 규모 로보어드바이저 스타트업 </li>
               <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 고리즘 자동화</li>
               <li>Scalene 통한 주식 리벨런싱 알고리즘 실행속도 최적화 리펙토링</li>
               <li>AWS 인프라 및 MySQL 데이터베이스 Grafana & Prometheus 모니터링 설계 및 관리</li>
@@ -208,8 +208,8 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.04 ~ 2023.12</p>
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
-            <p className="italic text-muted-foreground">대학 병원 의료 데이터 Middleware 인프라 엔지니어</p>
+            <h3 className="text-xl font-bold text-blue-500">Werfen <span className="text-sm text-gray-500">  (외국계 57명)</span></h3>
+            <p className="italic text-muted-foreground">대학 병원 의료 데이터 Middleware 인프라 엔지니어 </p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>대학병원 의료장비 / 혈액응고, 자가면역질환, 검사 기기 IT 미들웨어 소프트웨어 인프라 유지보수 및 관리</li>
               <li>대학병원 Needs 에 맞는 사용성 개선과 해외 협력사와의 긴밀한 커뮤니케이션</li>
@@ -238,7 +238,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.1 ~ 2023.4</p>
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">mobileapp</h3>
+            <h3 className="text-xl font-bold text-blue-500">mobileapp<span className="text-sm text-gray-500">  (스타트업 12명)</span></h3>
             <p className="italic text-muted-foreground">인턴</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>이미지 학습 데이터 수집 및 모델 학습</li>
@@ -262,7 +262,7 @@ export default function Resume() {
 
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle className="text-blue-500">Projects</CardTitle>
+          <CardTitle className="text-blue-500 text-4xl">Projects</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
         <div>
@@ -300,7 +300,7 @@ export default function Resume() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
-            <p className="text-gray-500">Quantec (자동화 팀원 3명)</p>
+            <p className="text-gray-500">콴텍 (자동화 팀원 3명)</p>
             <li>Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
             <li>주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
             <li>주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
