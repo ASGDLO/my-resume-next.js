@@ -400,51 +400,51 @@ export default function Resume() {
         <CardHeader>
           <CardTitle className="text-blue-500">OPEN SOURCE</CardTitle>
           <CardDescription className="text-muted-foreground">
-            A showcase of my contributions to various open-source projects.
+            {/* A showcase of my contributions to various open-source projects. */}
           </CardDescription>
         </CardHeader>
+        
         <CardContent className="space-y-4">
-          {/* Open Source Project 1 */}
-          <div className="flex flex-col">
-            <h4 className="text-lg font-semibold text-blue-600">Project Name</h4>
+        <div className="flex flex-col">
+            <h4 className="text-lg font-semibold text-blue-600">freqtrade</h4>
             <p className="text-sm text-muted-foreground mb-2">
-              A brief description of the project, highlighting your contributions and the technologies used.
+              freqtrade 오픈소스 기여 선물 기능 구현, leverage 기능 개선, tradingview 플랫폼 연동
             </p>
             <div className="flex space-x-2">
-              <Link href="https://github.com/yourusername/project-name" className="text-blue-500 hover:underline">
+              <Link href="https://github.com/freqtrade/freqtrade" className="text-blue-500 hover:underline">
                 GitHub
               </Link>
-              <Link href="https://projectwebsite.com" className="text-blue-500 hover:underline">
+              <Link href="https://www.freqtrade.io" className="text-blue-500 hover:underline">
                 Website
               </Link>
             </div>
             <div className="flex flex-wrap gap-2 mt-2">
+
+            </div>
+          </div>
+          {/* Open Source Project 1 */}
+          <div className="flex flex-col">
+            <h4 className="text-lg font-semibold text-blue-600">XMR-mining with Kubernetes</h4>
+            <p className="text-sm text-muted-foreground mb-2">
+              Kubernetes 기반 클러스터에서 XMR 마이닝 프로세스를 자동화하는 오픈소스 프로젝트
+            </p>
+            <div className="flex space-x-2">
+              <Link href="https://github.com/ASGDLO/XMR-mining-kubernetes" className="text-blue-500 hover:underline">
+                GitHub
+              </Link>
+              {/* <Link href="https://projectwebsite.com" className="text-blue-500 hover:underline">
+                Website
+              </Link> */}
+            </div>
+            {/* <div className="flex flex-wrap gap-2 mt-2">
               <Badge variant="outline">React</Badge>
               <Badge variant="outline">TypeScript</Badge>
               <Badge variant="outline">Open Source</Badge>
-            </div>
+            </div> */}
           </div>
 
           {/* Open Source Project 2 */}
-          <div className="flex flex-col">
-            <h4 className="text-lg font-semibold text-blue-600">Another Project</h4>
-            <p className="text-sm text-muted-foreground mb-2">
-              Another project description emphasizing your role and the impact of your work.
-            </p>
-            <div className="flex space-x-2">
-              <Link href="https://github.com/yourusername/another-project" className="text-blue-500 hover:underline">
-                GitHub
-              </Link>
-              <Link href="https://anotherproject.com" className="text-blue-500 hover:underline">
-                Website
-              </Link>
-            </div>
-            <div className="flex flex-wrap gap-2 mt-2">
-              <Badge variant="outline">Node.js</Badge>
-              <Badge variant="outline">Express</Badge>
-              <Badge variant="outline">API</Badge>
-            </div>
-          </div>
+
 
           {/* Add more projects as needed */}
         </CardContent>
@@ -476,6 +476,16 @@ export default function Resume() {
           <h3 className="font-semibold text-blue-500">자산관리사자격증</h3>
           <p>한국금융연수</p>
           <p className="text-sm text-muted-foreground">2018-11-23 취득</p>
+        </CardContent>
+      </Card>
+
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle className="text-blue-500">Additional Experience</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <h3 className="font-semibold text-blue-500">육군 전역</h3>
+          <p className="text-sm text-muted-foreground">2018-04-24 - 2020-02-13</p>
         </CardContent>
       </Card>
 
