@@ -180,7 +180,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2024.01 ~ 2024.04</p>
               {/* <Badge variant="secondary">3개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">콴텍투자일임<span className="text-sm text-gray-500">  (스타트업 53명)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">콴텍투자일임</h3>
             <p className="italic text-muted-foreground">로보어드바이저 자동화 개발자</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>금융업 / 2.5조 규모 로보어드바이저 스타트업 </li>
@@ -208,7 +208,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.04 ~ 2023.12</p>
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Werfen <span className="text-sm text-gray-500">  (외국계 57명)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
             <p className="italic text-muted-foreground">대학 병원 의료 데이터 Middleware 인프라 엔지니어 </p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>대학병원 의료장비 / 혈액응고, 자가면역질환, 검사 기기 IT 미들웨어 소프트웨어 인프라 유지보수 및 관리</li>
@@ -238,7 +238,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.1 ~ 2023.4</p>
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">mobileapp<span className="text-sm text-gray-500">  (스타트업 12명)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">mobileapp</h3>
             <p className="italic text-muted-foreground">인턴</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>이미지 학습 데이터 수집 및 모델 학습</li>

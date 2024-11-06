@@ -180,7 +180,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2024.01 ~ 2024.04</p>
               {/* <Badge variant="secondary">3 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Quantec Investment Advisory<span className="text-sm text-gray-500">  (Startup, 53 employees)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">Quantec Investment Advisory</h3>
             <p className="italic text-muted-foreground">Robo-advisor Automation Developer</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Financial Industry / 2.5 trillion KRW scale robo-advisor startup </li>
@@ -208,7 +208,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.04 ~ 2023.12</p>
               {/* <Badge variant="secondary">9 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">Werfen <span className="text-sm text-gray-500">  (Foreign company, 57 employees)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
             <p className="italic text-muted-foreground">Middleware Infrastructure Engineer for University Hospital Medical Data </p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>University Hospital Medical Equipment / Blood coagulation, autoimmune disease, testing equipment IT middleware software infrastructure maintenance and management</li>
@@ -236,7 +236,7 @@ export default function Resume() {
               <p className="text-lg font-semibold text-blue-500">2023.1 ~ 2023.4</p>
               {/* <Badge variant="secondary">3 months</Badge> */}
             </div>
-            <h3 className="text-xl font-bold text-blue-500">mobileapp<span className="text-sm text-gray-500">  (Startup, 12 employees)</span></h3>
+            <h3 className="text-xl font-bold text-blue-500">mobileapp</h3>
             <p className="italic text-muted-foreground">Intern</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Collected image training data and model training</li>
