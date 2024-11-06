@@ -12,7 +12,7 @@ import * as PDFIcon from 'lucide-react'; // Import an appropriate icon if desire
 export default function Resume() {
   return (
     <div
-      className="max-w-7xl mx-auto pt-20 px-12 bg-white"
+      className="max-w-7xl mx-auto pt-20 px-4 sm:px-12 bg-white"
       style={{
         fontFamily: 'Pretendard, sans-serif',
         fontWeight: 300,
@@ -21,7 +21,7 @@ export default function Resume() {
         lineHeight: 1.8,
       }}
     >
-      <header className="flex justify-end items-center p-4 space-x-4">
+      <header className="flex flex-col sm:flex-row justify-end items-center p-4 space-y-4 sm:space-y-0 sm:space-x-4">
         <LanguageSwitcher />
         {/* Download PDF Button */}
         <Button asChild variant="outline" size="lg">
@@ -43,8 +43,8 @@ export default function Resume() {
               className="rounded-full shadow-lg"
             />
             <div className="text-center lg:text-left flex-1">
-              <h1 className="text-4xl font-bold mb-2 text-blue-500">이차훈 (Lee Cha Hun)</h1>
-              <p className="text-2xl text-muted-foreground mb-4">Software Developer</p>
+              <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-blue-500">이차훈 (Lee Cha Hun)</h1>
+              <p className="text-xl sm:text-2xl text-muted-foreground mb-4">Software Developer</p>
               <div className="flex flex-wrap justify-center lg:justify-start gap- mb-6">
                 <Badge variant="secondary">Age: 26 (1998.05.04)</Badge>
                 <Badge variant="secondary">Seoul, South Korea</Badge>
@@ -209,7 +209,7 @@ export default function Resume() {
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
             <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
-            <p className="italic text-muted-foreground">대학 병원 의료 ���이터 Middleware 인프라 엔지니어</p>
+            <p className="italic text-muted-foreground">대학 병원 의료 데이터 Middleware 인프라 엔지니어</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>대학병원 의료장비 / 혈액응고, 자가면역질환, 검사 기기 IT 미들웨어 소프트웨어 인프라 유지보수 및 관리</li>
               <li>대학병원 Needs 에 맞는 사용성 개선과 해외 협력사와의 긴밀한 커뮤니케이션</li>
@@ -305,7 +305,7 @@ export default function Resume() {
             <li>주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
             <li>주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
             <li>병목 지점을 식별하고 비효율적인 연산을 최적화하여 데이터 처리 속도 N% 향상</li>
-            <li>CPU, 메모, 네트워크 래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 ���정으로 문제 발생 시 즉각적인 대응 가능</li>
+            <li>CPU, 메모, 네트워크 래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 설정으로 문제 발생 시 즉각적인 대응 가능</li>
             <li>하이브리드 / 고가용성 Kubernetes 설계 구축</li>
             <Image
               src="/project/Screenshot from 2024-04-02 17-57-15.png"
@@ -320,7 +320,7 @@ export default function Resume() {
             <h3 className="font-semibold text-blue-500">삼성병원 의료 데이터 Middleware 인프라 구축</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
             <p className="text-gray-500">werfen (팀원 3명)</p>
-            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
+            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
             <li>vSphere Client를 사용해 ESXi 서버의 SSH 서비스 활성화 및 보안 설정 진행</li>
               <li>Oracle DB 비동기 수신 활성화를 위한 SQL 쿼리 명령어 작성 및 성능 최적화</li>
               <li>이전 쿼리의 형식 오류 수정, 동기 모드 성능 저하 및 타임아웃 방지, MultiOnline의 결과 수신 속도 개선</li>
@@ -531,7 +531,7 @@ function ContactItem({ icon, text }: { icon: React.ReactNode; text: string }) {
 function SocialButton({ href, icon, label }: { href: string; icon: React.ReactElement; label: string }) {
   return (
     <Button variant="outline" size="lg" asChild>
-      <Link href={href}>
+      <Link href={href} className="flex items-center">
         {React.cloneElement(icon, { className: "mr-2 h-5 w-5" })}
         {label}
       </Link>

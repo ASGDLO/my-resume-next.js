@@ -10,23 +10,23 @@ import LanguageSwitcher from '@/components/stwitch/LanguageSwitcher';
 
 export default function Resume() {
   return (
-    <div
-      className="max-w-7xl mx-auto pt-20 px-12 bg-white"
-      style={{
-        fontFamily: 'Pretendard, sans-serif',
-        fontWeight: 300,
-        wordWrap: 'break-word',
-        wordBreak: 'keep-all',
-        lineHeight: 1.8,
-      }}
-    >
-      <header className="flex justify-end items-center p-4 space-x-4">
+      <div
+        className="max-w-7xl mx-auto pt-20 px-4 sm:px-12 bg-white"
+        style={{
+          fontFamily: 'Pretendard, sans-serif',
+          fontWeight: 300,
+          wordWrap: 'break-word',
+          wordBreak: 'keep-all',
+          lineHeight: 1.8,
+        }}
+      >
+      <header className="flex flex-col sm:flex-row justify-end items-center p-4 space-y-4 sm:space-y-0 sm:space-x-4">
         <LanguageSwitcher />
         {/* Download PDF Button */}
         <Button asChild variant="outline" size="lg">
-          <a href="/Resume(en).pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
+          <a href="/Resume.pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
             <BookOpen className="mr-2 h-5 w-5" />
-            PDF 다운로드
+            PDF Download
           </a>
         </Button>
       </header>
