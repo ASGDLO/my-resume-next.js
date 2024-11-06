@@ -70,10 +70,10 @@ export default function Resume() {
         </CardHeader>
         <CardContent className="space-y-4 md:space-y-6">
           <p className="text-muted-foreground text-sm md:text-base">
-            I have accumulated diverse experiences as a web service and infrastructure engineer. I have designed, developed, and operated production services using various technologies such as Python, AWS, Next.js, Docker, FastAPI, and Kubernetes, and I am always considering architectures and patterns that offer high scalability and maintainability.
+           I have gained diverse experience as a web service and infrastructure engineer.. I have designed, developed, and operated production services using various technologies such as Python, AWS, Next.js, Docker, FastAPI, and Kubernetes, and I am always considering architectures and patterns that offer high scalability and maintainability.
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
-            I am highly interested in open-source projects and strive to apply and contribute to them in various ways. I enjoy gaining diverse development experiences through personal projects and involvement in development communities. I like to share or document useful aspects of my development experiences and have written over 70 technical posts on Medium.
+            I am highly interested in open-source projects and strive to apply and contribute to them in various ways. I enjoy broadening my development experience through personal projects and involvement in development communities. I like to share or document useful aspects of my development experiences and have published over 70 technical posts on Medium.
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
             I always aspire to be the best software developer, and with the goal of becoming the best software leader in the future, I am learning, using, and gaining experience in various technologies.
@@ -185,7 +185,7 @@ export default function Resume() {
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Financial Industry / 2.5 trillion KRW scale robo-advisor startup </li>
               <li>Automated stock market rebalancing algorithms using Dagster / Cloud-native orchestration framework</li>
-              <li>Refactored and optimized execution speed of stock rebalancing algorithms using Scalene</li>
+              <li>Refactored stock rebalancing algorithms for optimized execution speed using Scalene.</li>
               <li>Designed and managed AWS infrastructure and MySQL database monitoring using Grafana & Prometheus</li>
               <li>Designed and managed Kubernetes-based container clusters</li>
               <li>Skill Keywords</li>
