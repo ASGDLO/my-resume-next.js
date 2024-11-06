@@ -269,8 +269,23 @@ export default function Resume() {
             />
           </div>
           <Separator />
+          <div className="flex items-center gap-4"> 
+            <h3 className="font-semibold text-blue-500">
+            로보어드바이저 리벨런싱 자동화 
+            </h3>
+            <Button asChild variant="outline" className="gap-2">
+              <Link 
+                href="https://github.com/ASGDLO/Dagster_example" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="View project on GitHub"
+              >
+                <Github className="w-5 h-5" />
+                GitHub
+              </Link>
+            </Button>
+          </div>
           <div>
-            <h3 className="font-semibold text-blue-500">Quantitative-trading 자산관리 서비스</h3>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
             <p className="text-gray-500">Quantec</p>
             <li>• Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
