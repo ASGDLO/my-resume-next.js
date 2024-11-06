@@ -320,7 +320,7 @@ export default function Resume() {
             <h3 className="font-semibold text-blue-500">삼성병원 의료 데이터 Middleware 인프라 구축</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
             <p className="text-gray-500">werfen (팀원 3명)</p>
-            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
+            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
             <li>vSphere Client를 사용해 ESXi 서버의 SSH 서비스 활성화 및 보안 설정 진행</li>
               <li>Oracle DB 비동기 수신 활성화를 위한 SQL 쿼리 명령어 작성 및 성능 최적화</li>
               <li>이전 쿼리의 형식 오류 수정, 동기 모드 성능 저하 및 타임아웃 방지, MultiOnline의 결과 수신 속도 개선</li>
