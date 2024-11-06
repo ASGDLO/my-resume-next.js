@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Github, Linkedin, Mail, Phone, Globe, BookOpen } from 'lucide-react'
 import LanguageSwitcher from '@/components/stwitch/LanguageSwitcher';
+import * as PDFIcon from 'lucide-react'; // Import an appropriate icon if desired
 
 export default function Resume() {
   return (
@@ -20,9 +21,17 @@ export default function Resume() {
         lineHeight: 1.8,
       }}
     >
-      <header className="flex justify-end p-4">
+      <header className="flex justify-end items-center p-4 space-x-4">
         <LanguageSwitcher />
+        {/* Download PDF Button */}
+        <Button asChild variant="outline" size="lg">
+          <a href="/Resume.pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
+            <BookOpen className="mr-2 h-5 w-5" />
+            PDF 다운로드
+          </a>
+        </Button>
       </header>
+
       {/* <Card className="mb-12">
         <CardContent className="pt-8"> */}
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
@@ -175,7 +184,7 @@ export default function Resume() {
             <p className="italic text-muted-foreground">로보어드바이저 자동화 개발자</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>금융업 / 2.5조 규모 로보어드바이저 스타트업</li>
-              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 알고리즘 자동화</li>
+              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 고리즘 자동화</li>
               <li>Scalene 통한 주식 리벨런싱 알고리즘 실행속도 최적화 리펙토링</li>
               <li>AWS 인프라 및 MySQL 데이터베이스 Grafana & Prometheus 모니터링 설계 및 관리</li>
               <li>Kubernetes 기반 컨테이너 클러스터 설계 및 관리</li>
