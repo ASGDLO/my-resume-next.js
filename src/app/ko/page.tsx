@@ -66,19 +66,19 @@ export default function Resume() {
 
       <Card className="mt-16 mb-16">
         <CardHeader>
-          <CardTitle className="text-blue-500">Introduction</CardTitle>
+          <CardTitle className="text-blue-500 text-lg md:text-xl">Introduction</CardTitle>
         </CardHeader>
-        <CardContent className="space-y-6">
-          <p className="text-muted-foreground">
+        <CardContent className="space-y-4 md:space-y-6">
+          <p className="text-muted-foreground text-sm md:text-base">
             웹 서비스와 인프라 엔지니어로서 다양한 경험을 쌓아왔습니다. Python, AWS, Next.js, Docker, Fastapi, Kubernetes 등 다양한 기술을 활용하여 프로덕션 서비스를 설계, 개발, 운영한 경험이 있으며, 확장성과 유지 보수성이 높은 아키텍처와 패턴에 대해 항상 고민하고 있습니다.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             오픈소스 프로젝트에 관심이 많고 다양한 방법으로 응용하고 기여를 하려고 노력하고 있습니다. 개인 프로젝트나 개발 커뮤니티 활동 등을 통해 다양한 개발 경험을 즐기고 있습니다. 평소 개발 경험의 유익한 내용은 공유하거나 기록하는 것을 좋아하여 미디움 블로그에 70여 개의 기술 포스트를 작성했습니다.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             언제나 최고의 소프트웨어 개발자를 꿈꾸고 있으며, 조금 더 나중에는 최고의 소프트웨어 리더라는 목표를 가지고 다양한 기술을 학습하거나 사용하고 경험을 쌓고 있습니다.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             서비스 개발에서는 개발과 비즈니스 간의 커뮤니케이션이 가장 중요하다고 생각합니다. 능동적이고 적극적인 커뮤니케이션을 통해 문제 해결과 비즈니스 발전을 위해 노력하고 있습니다. 이러한 점을 바탕으로 더 좋은 개발자로 성장하기 위해 끊임없이 학습하고, 경험하고, 노력하고 있습니다.
           </p>
         </CardContent>
@@ -89,9 +89,9 @@ export default function Resume() {
         <CardTitle className="text-3xl font-bold text-blue-500">SKILL</CardTitle>
       </CardHeader>
       <CardContent className="space-y-8">
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Languages</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• Python</li>
               <li>• GO</li>
@@ -106,9 +106,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Frameworks & Libraries</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• FastAPI</li>
               <li>• Node.js</li>
@@ -123,9 +123,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Infrastructure & Databases</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• AWS</li>
               <li>• GCP</li>
@@ -147,9 +147,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Tools & IDEs</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• Vim</li>
               <li>• VS Code</li>
@@ -185,7 +185,7 @@ export default function Resume() {
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>금융업 / 2.5조 규모 로보어드바이저 스타트업</li>
               <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 고리즘 자동화</li>
-              <li>Scalene 통한 주식 리벨런싱 알고리즘 실행속도 최적화 리펙토링</li>
+              <li>Scalene 통한 주식 리벨런싱 알고���즘 실행속도 최적화 리펙토링</li>
               <li>AWS 인프라 및 MySQL 데이터베이스 Grafana & Prometheus 모니터링 설계 및 관리</li>
               <li>Kubernetes 기반 컨테이너 클러스터 설계 및 관리</li>
               <li>Skill Keywords</li>
@@ -209,7 +209,7 @@ export default function Resume() {
               {/* <Badge variant="secondary">9개월</Badge> */}
             </div>
             <h3 className="text-xl font-bold text-blue-500">Werfen</h3>
-            <p className="italic text-muted-foreground">대학 병원 의료 데이터 Middleware 인프라 엔지니어</p>
+            <p className="italic text-muted-foreground">대학 병원 의료 ���이터 Middleware 인프라 엔지니어</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>대학병원 의료장비 / 혈액응고, 자가면역질환, 검사 기기 IT 미들웨어 소프트웨어 인프라 유지보수 및 관리</li>
               <li>대학병원 Needs 에 맞는 사용성 개선과 해외 협력사와의 긴밀한 커뮤니케이션</li>
@@ -268,7 +268,7 @@ export default function Resume() {
         <div>
             <h3 className="font-semibold text-blue-500">퀀트 투자 알고리즘 개발 및 운영</h3>
             <p className="text-sm text-muted-foreground">2024.05 ~ </p>
-            <p className="text-gray-500">crypto-build</p>
+            <p className="text-gray-500">crypto-build (1인)</p>
             <p>• 바이낸스 카피 트레이딩 기반 Quant 투자 펀드 상품 출시</p>    
             <p>• RESTful API를 통해 거래 신호를 수신하고, 사용자 계정에 따라 자동 매매를 수행하는 로직 개발</p> 
             <p>• 알고리즘 성능 비교 실험을 위한 AWS 서버 250대에 Ansible 병렬 실행을 적용해 배포 시간 N배 단축</p>  
@@ -300,13 +300,13 @@ export default function Resume() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
-            <p className="text-gray-500">Quantec</p>
-            <li>• Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
-            <li>• 주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
-            <li>• 주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
-            <li>• 병목 지점을 식별하고 비효율적인 연산을 최적화하여 데이터 처리 속도 N% 향상</li>
-            <li>• CPU, 메모리, 네트워크 트래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 설정으로 문제 발생 시 즉각적인 대응 가능</li>
-            <li>• 하이브리드 / 고가용성 Kubernetes 설계 구축</li>
+            <p className="text-gray-500">Quantec (자동화 팀원 3명)</p>
+            <li>Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
+            <li>주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
+            <li>주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
+            <li>병목 지점을 식별하고 비효율적인 연산을 최적화하여 데이터 처리 속도 N% 향상</li>
+            <li>CPU, 메모, 네트워크 래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 ���정으로 문제 발생 시 즉각적인 대응 가능</li>
+            <li>하이브리드 / 고가용성 Kubernetes 설계 구축</li>
             <Image
               src="/project/Screenshot from 2024-04-02 17-57-15.png"
               alt="Quantitative-trading Service"
@@ -319,12 +319,12 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500">삼성병원 의료 데이터 Middleware 인프라 구축</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
-            <p className="text-gray-500">werfen</p>
-            <li>• VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
-            <li>• vSphere Client를 사용해 ESXi 서버의 SSH 서비스 활성화 및 보안 설정 진행</li>
-              <li>• Oracle DB 비동기 수신 활성화를 위한 SQL 쿼리 명령어 작성 및 성능 최적화</li>
-              <li>• 이전 쿼리의 형식 오류 수정, 동기 모드 성능 저하 및 타임아웃 방지, MultiOnline의 결과 수신 속도 개선</li>
-              <li>• 서버 성능 및 안정성을 보장하기 위한 정기적인 트러블슈팅 및 소프트웨어 업데이트 수행</li>
+            <p className="text-gray-500">werfen (팀원 3명)</p>
+            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
+            <li>vSphere Client를 사용해 ESXi 서버의 SSH 서비스 활성화 및 보안 설정 진행</li>
+              <li>Oracle DB 비동기 수신 활성화를 위한 SQL 쿼리 명령어 작성 및 성능 최적화</li>
+              <li>이전 쿼리의 형식 오류 수정, 동기 모드 성능 저하 및 타임아웃 방지, MultiOnline의 결과 수신 속도 개선</li>
+              <li>서버 성능 및 안정성을 보장하기 위한 정기적인 트러블슈팅 및 소프트웨어 업데이트 수행</li>
 
             <Image
               src="/project/1686299560483.jpg"
@@ -338,7 +338,7 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500">Yolov7 이미지 분석 모델 개발</h3>
             <p className="text-sm text-muted-foreground">2023.01 ~ 2023.4</p>
-            <p className="text-gray-500">mobileapp 인턴</p>
+            <p className="text-gray-500">mobileapp 인턴 (인공지능 팀원 3명)</p>
             <p>• YOlov7 모델 학습을 위한 GPU 기반 CUDA 환경 구축</p>
             <p>• 데이터 수집, 가공 및 전처리 후 학습/검증/테스트 데이터셋으로 분할하여 모델 학습 수행</p>
             <p>• 하이퍼파라미터 튜닝과 테스트 데이터셋을 통한 모델 성능 최적화 및 검증</p>
@@ -364,6 +364,7 @@ export default function Resume() {
           <div>
             <h3 className="font-semibold text-blue-500"> </h3>
             <p className="text-sm text-muted-foreground">2022.07 ~ 2022.12</p>
+            <p className="text-gray-500">개인 프로젝트</p>
             <p>• Solidity를 사용해 ERC-721 표준 기반의 NFT 발행 로직 구현</p>
             <p>• React와 MetaMask 연동으로 사용자 지갑 연결 및 NFT 구매 인터페이스 개발</p>
             <p>• Node.js와 Express로 거래 기록 및 사용자 데이터를 관리하고, MongoDB로 데이터베이스 구축</p>
@@ -379,7 +380,7 @@ export default function Resume() {
           <Separator />
           <div className="flex items-center gap-4"> 
             <h3 className="font-semibold text-blue-500">
-              VGG19 Image Generator AI 이미지 합성 서비스
+              VGG19 Image Generator AI 미지 합성 서비스
             </h3>
             <Button asChild variant="outline" className="gap-2">
               <Link 
@@ -394,7 +395,7 @@ export default function Resume() {
             </Button>
           </div>
           <p className="text-sm text-muted-foreground">2021.12 ~ 2022.02</p>
-          <p className="text-gray-500">AI 실리콘벨리 해커톤</p>
+          <p className="text-gray-500">AI 실리콘벨리 해커톤 (팀원 5명)</p>
           <p>• VGG19 모델 튜닝으로 이미지 합성 기능 구현, RabbitMQ와 Celery를 통한 비동기 처리 및 CUDA GPU 사용으로 다중 요청 안정적 처리</p>
           <p>• 백엔드 개발자로서 gpu 서버 과부화, api 요청 횟수 증가로 인한 오류, 성능 튜닝 등 다양한 서버 문제를 경험</p>
           <p>• 팀장으로서 5명의 개발자와 방향성 수립 및 설계, 다른 직군과의 협업 등을 경험</p>

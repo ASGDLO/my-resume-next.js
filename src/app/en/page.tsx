@@ -64,39 +64,38 @@ export default function Resume() {
 
       <Card className="mt-16 mb-16">
         <CardHeader>
-          <CardTitle className="text-blue-500">Introduction</CardTitle>
+          <CardTitle className="text-blue-500 text-lg md:text-xl">Introduction</CardTitle>
         </CardHeader>
-        <CardContent className="space-y-6">
-          <p className="text-muted-foreground">
+        <CardContent className="space-y-4 md:space-y-6">
+          <p className="text-muted-foreground text-sm md:text-base">
             I have accumulated diverse experiences as a web service and infrastructure engineer. I have designed, developed, and operated production services using various technologies such as Python, AWS, Next.js, Docker, FastAPI, and Kubernetes, and I am always considering architectures and patterns that offer high scalability and maintainability.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             I am highly interested in open-source projects and strive to apply and contribute to them in various ways. I enjoy gaining diverse development experiences through personal projects and involvement in development communities. I like to share or document useful aspects of my development experiences and have written over 70 technical posts on Medium.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             I always aspire to be the best software developer, and with the goal of becoming the best software leader in the future, I am learning, using, and gaining experience in various technologies.
           </p>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             I believe that communication between development and business is most important in service development. I strive for problem-solving and business advancement through proactive and active communication. Based on these principles, I continuously learn, experience, and make efforts to grow into a better developer.
           </p>
         </CardContent>
       </Card>
-
-    <Card className="mb-8">
+      <Card className="mb-8">
       <CardHeader>
         <CardTitle className="text-3xl font-bold text-blue-500">SKILL</CardTitle>
       </CardHeader>
       <CardContent className="space-y-8">
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Languages</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• Python</li>
               <li>• GO</li>
             </ul>
             <ul className="space-y-2">
               <li>• TypeScript</li>
-              <li>• JavaScript</li>
+              <li>• javascript</li>
             </ul>
             <ul className="space-y-2">
               <li>• HTML/CSS</li>
@@ -104,9 +103,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Frameworks & Libraries</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• FastAPI</li>
               <li>• Node.js</li>
@@ -121,9 +120,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Infrastructure & Databases</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• AWS</li>
               <li>• GCP</li>
@@ -145,9 +144,9 @@ export default function Resume() {
           </div>
         </div>
 
-        <div className="grid grid-cols-[200px_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
           <div className="text-lg text-muted-foreground">Tools & IDEs</div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <ul className="space-y-2">
               <li>• Vim</li>
               <li>• VS Code</li>
@@ -293,12 +292,12 @@ export default function Resume() {
           <div>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
             <p className="text-gray-500">Quantec</p>
-            <li>• Built an orchestration workflow that performs N times monthly rebalancing of U.S. and Korean stocks using Dagster</li>
-            <li>• Designed ETL tasks for collecting and analyzing stock market data, set up for periodic execution at specified times</li>
-            <li>• Used Scalene profiler to analyze code execution time and memory usage patterns to optimize the performance of stock rebalancing algorithms</li>
-            <li>• Identified bottlenecks and optimized inefficient computations, improving data processing speed by N%</li>
-            <li>• Created monitoring dashboards including metrics such as CPU, memory, network traffic, MySQL query response times, and set up alerts for immediate response in case of issues</li>
-            <li>• Designed and built a hybrid/high-availability Kubernetes architecture</li>
+            <li>Built an orchestration workflow that performs N times monthly rebalancing of U.S. and Korean stocks using Dagster</li>
+            <li>Designed ETL tasks for collecting and analyzing stock market data, set up for periodic execution at specified times</li>
+            <li>Used Scalene profiler to analyze code execution time and memory usage patterns to optimize the performance of stock rebalancing algorithms</li>
+            <li>Identified bottlenecks and optimized inefficient computations, improving data processing speed by N%</li>
+            <li>Created monitoring dashboards including metrics such as CPU, memory, network traffic, MySQL query response times, and set up alerts for immediate response in case of issues</li>
+            <li>Designed and built a hybrid/high-availability Kubernetes architecture</li>
             <Image
               src="/project/Screenshot from 2024-04-02 17-57-15.png"
               alt="Quantitative-trading Service"
@@ -312,11 +311,11 @@ export default function Resume() {
             <h3 className="font-semibold text-blue-500">Built Middleware Infrastructure for Samsung Hospital Medical Data</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
             <p className="text-gray-500">Werfen</p>
-            <li>• Implemented high availability by distributing middleware traffic of Kubernetes clusters with NSX-T in VMware environment, and automatically switching traffic upon failure through health checks</li>
-            <li>• Activated SSH service on ESXi servers using vSphere Client and carried out security settings</li>
-            <li>• Wrote SQL query commands to activate Oracle DB asynchronous reception and optimized performance</li>
-            <li>• Fixed format errors in previous queries, prevented performance degradation and timeouts in synchronous mode, improved MultiOnline result reception speed</li>
-            <li>• Performed regular troubleshooting and software updates to ensure server performance and stability</li>
+            <li>Implemented high availability by distributing middleware traffic of Kubernetes clusters with NSX-T in VMware environment, and automatically switching traffic upon failure through health checks</li>
+            <li>Activated SSH service on ESXi servers using vSphere Client and carried out security settings</li>
+            <li>Wrote SQL query commands to activate Oracle DB asynchronous reception and optimized performance</li>
+            <li>Fixed format errors in previous queries, prevented performance degradation and timeouts in synchronous mode, improved MultiOnline result reception speed</li>
+            <li>Performed regular troubleshooting and software updates to ensure server performance and stability</li>
             <Image
               src="/project/1686299560483.jpg"
               alt="Quantitative-trading Service"
