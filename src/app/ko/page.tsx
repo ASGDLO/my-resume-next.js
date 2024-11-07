@@ -184,7 +184,7 @@ export default function Resume() {
             <p className="italic text-muted-foreground">로보어드바이저 자동화 개발자</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>금융업 / 2.5조 규모 로보어드바이저 스타트업 </li>
-              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 고리즘 자동화</li>
+              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 알고리즘 자동화</li>
               <li>Scalene 통한 주식 리벨런싱 알고리즘 실행속도 최적화 리펙토링</li>
               <li>AWS 인프라 및 MySQL 데이터베이스 Grafana & Prometheus 모니터링 설계 및 관리</li>
               <li>Kubernetes 기반 컨테이너 클러스터 설계 및 관리</li>
