@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Github, Linkedin, Mail, Phone, Globe, BookOpen } from 'lucide-react'
 import LanguageSwitcher from '@/components/stwitch/LanguageSwitcher';
-import * as PDFIcon from 'lucide-react'; // Import an appropriate icon if desired
+import SkillsSection from '@/components/SkillsSection/SkillsSection';
 
 export default function Resume() {
   return (
@@ -81,91 +81,7 @@ export default function Resume() {
         </CardContent>
       </Card>
 
-    <Card className="mb-8">
-      <CardHeader>
-        <CardTitle className="text-3xl font-bold text-blue-500">SKILL</CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-8">
-        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
-          <div className="text-lg text-muted-foreground">Languages</div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <ul className="space-y-2">
-              <li>• Python</li>
-              <li>• GO</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• TypeScript</li>
-              <li>• javascript</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• HTML/CSS</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
-          <div className="text-lg text-muted-foreground">Frameworks & Libraries</div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <ul className="space-y-2">
-              <li>• FastAPI</li>
-              <li>• Node.js</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Next.js</li>
-              <li>• React.js</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Express.js</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
-          <div className="text-lg text-muted-foreground">Infrastructure & Databases</div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <ul className="space-y-2">
-              <li>• AWS</li>
-              <li>• GCP</li>
-              <li>• Kubernetes</li>
-              <li>• Docker</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Nginx</li>
-              <li>• Celery</li>
-              <li>• RabbitMQ</li>
-              <li>• MySQL</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Redis</li>
-              <li>• MongoDB</li>
-              <li>• Linux</li>
-              <li>• Prometheus & Grafana</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
-          <div className="text-lg text-muted-foreground">Tools & IDEs</div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <ul className="space-y-2">
-              <li>• Vim</li>
-              <li>• VS Code</li>
-              <li>• Cursor</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Git</li>
-              <li>• Github</li>
-              <li>• GitLab CI</li>
-            </ul>
-            <ul className="space-y-2">
-              <li>• Jira</li>
-              <li>• Confluence</li>
-            </ul>
-          </div>
-        </div>
-
-      </CardContent>
-    </Card>
+      <SkillsSection />
 
       <Card className="mb-8">
         <CardHeader>
@@ -181,7 +97,7 @@ export default function Resume() {
             <p className="italic text-muted-foreground">로보어드바이저 자동화 개발자</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>금융업 / 2.5조 규모 로보어드바이저 스타트업 </li>
-              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 알고리즘 자동화</li>
+              <li>Dagster / Cloud-native orchestration 프레임워크를 활용한 증시 리벨런싱 고리즘 자동화</li>
               <li>Scalene 통한 주식 리벨런싱 알고리즘 실행속도 최적화 리펙토링</li>
               <li>AWS 인프라 및 MySQL 데이터베이스 Grafana & Prometheus 모니터링 설계 및 관리</li>
               <li>Kubernetes 기반 컨테이너 클러스터 설계 및 관리</li>
