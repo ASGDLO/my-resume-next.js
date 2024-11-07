@@ -91,7 +91,7 @@ function SkillsSection() {
       skills: [
         {
           name: "AWS",
-          description: "EC2, ECS, ECR, IGW, ELB, CDN을 통합하여 효율적인 클라우드 인프라를 구축했습니다. 자동화 스크립트와 보안 설정을 최적화하고, 비용 절감을 위한 아키텍처를 설계하여 서비스의 클라우드 마이그레이션을 성공적으로 완료했습니다."
+          description: "EC2, ECS,EKS, ECR, IGW, ELB, CDN을 통합하여 효율적인 클라우드 인프라를 구축했습니다. 자동화 스크립트와 보안 설정을 최적화하고, 비용 절감을 위한 아키텍처를 설계하여 서비스의 클라우드 마이그레이션을 성공적으로 완료했습니다."
         },
         {
           name: "Kubernetes",
