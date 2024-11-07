@@ -76,9 +76,6 @@ export default function Resume() {
             I am highly interested in open-source projects and strive to apply and contribute to them in various ways. I enjoy broadening my development experience through personal projects and involvement in development communities. I like to share or document useful aspects of my development experiences and have published over 70 technical posts on Medium.
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
-            I always aspire to be the best software developer, and with the goal of becoming the best software leader in the future, I am learning, using, and gaining experience in various technologies.
-          </p>
-          <p className="text-muted-foreground text-sm md:text-base">
             I believe that communication between development and business is most important in service development. I strive for problem-solving and business advancement through proactive and active communication. Based on these principles, I continuously learn, experience, and make efforts to grow into a better developer.
           </p>
         </CardContent>
