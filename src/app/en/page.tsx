@@ -71,7 +71,7 @@ export default function Resume() {
         </CardHeader>
         <CardContent className="space-y-4 md:space-y-6">
           <p className="text-muted-foreground text-sm md:text-base">
-           I have gained diverse experience as a web service and infrastructure engineer.. I have designed, developed, and operated production services using various technologies such as Python, AWS, Next.js, Docker, FastAPI, and Kubernetes, and I am always considering architectures and patterns that offer high scalability and maintainability.
+           I have gained diverse experience as a web service and infrastructure engineer. I have designed, developed, and operated production services using various technologies such as Python, AWS, Next.js, Docker, FastAPI, and Kubernetes, and I am always considering architectures and patterns that offer high scalability and maintainability.
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
             I am highly interested in open-source projects and strive to apply and contribute to them in various ways. I enjoy broadening my development experience through personal projects and involvement in development communities. I like to share or document useful aspects of my development experiences and have published over 70 technical posts on Medium.
@@ -328,38 +328,29 @@ export default function Resume() {
         
         <CardContent className="space-y-4">
           <div className="flex flex-col">
-              <h4 className="text-lg font-semibold text-blue-600">freqtrade</h4>
-              <p className="text-sm text-muted-foreground mb-2">
-                Contributed to freqtrade open-source project by implementing futures trading features, improving leverage functions, and integrating with TradingView platform
-              </p>
+              <h4 className="text-lg font-semibold text-blue-600">Freqtrade</h4>
+              <ul className="list-disc list-inside text-sm text-muted-foreground mb-2">
+                <li>Implemented futures functionality and improved leverage features.</li>
+                <li>Integrated TradingView platform for enhanced trading capabilities.</li>
+              </ul>
               <div className="flex space-x-2">
                 <Link href="https://github.com/freqtrade/freqtrade" className="text-blue-500 hover:underline">
-                  GitHub
-                </Link>
-                <Link href="https://www.freqtrade.io" className="text-blue-500 hover:underline">
-                  Website
+                  GitHub Repository
                 </Link>
               </div>
           </div>
-          {/* Open Source Project 1 */}
           <div className="flex flex-col">
-            <h4 className="text-lg font-semibold text-blue-600">XMR-mining with Kubernetes</h4>
-            <p className="text-sm text-muted-foreground mb-2">
-              An open-source project automating XMR mining processes in a Kubernetes-based cluster
-            </p>
+            <h4 className="text-lg font-semibold text-blue-600">XMR-Mining with Kubernetes</h4>
+            <ul className="list-disc list-inside text-sm text-muted-foreground mb-2">
+              <li>Automated XMR mining processes within Kubernetes clusters.</li>
+              <li>Enhanced scalability and efficiency of mining operations.</li>
+            </ul>
             <div className="flex space-x-2">
               <Link href="https://github.com/ASGDLO/XMR-mining-kubernetes" className="text-blue-500 hover:underline">
-                GitHub
+                GitHub Repository
               </Link>
-              {/* <Link href="https://projectwebsite.com" className="text-blue-500 hover:underline">
-                Website
-              </Link> */}
             </div>
           </div>
-
-          {/* Open Source Project 2 */}
-
-          {/* Add more projects as needed */}
         </CardContent>
       </Card>
 
