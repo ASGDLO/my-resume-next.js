@@ -233,7 +233,7 @@ export default function Resume() {
             <h3 className="font-semibold text-blue-500">삼성병원 의료 데이터 Middleware 인프라 구축</h3>
             <p className="text-sm text-muted-foreground">2023.4 ~ 2023.12</p>
             <p className="text-gray-500">werfen (팀원 3명)</p>
-            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 ��해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
+            <li>VMware 환경에서 NSX-T로 Kubernetes 클러스터의 미들웨어 트래픽을 분산하고, 헬스 체크를 통해 장애 시 자동으로 트래픽을 전환하여 고가용성 구현</li>
             <li>vSphere Client를 사용해 ESXi 서버의 SSH 서비스 활성화 및 보안 설정 진행</li>
               <li>Oracle DB 비동기 수신 활성화를 위한 SQL 쿼리 명령어 작성 및 성능 최적화</li>
               <li>이전 쿼리의 형식 오류 수정, 동기 모드 성능 저하 및 타임아웃 방지, MultiOnline의 결과 수신 속도 개선</li>
@@ -252,7 +252,7 @@ export default function Resume() {
             <h3 className="font-semibold text-blue-500">Yolov7 이미지 분석 모델 개발</h3>
             <p className="text-sm text-muted-foreground">2023.01 ~ 2023.4</p>
             <p className="text-gray-500">mobileapp 인턴 (인공지능 팀원 3명)</p>
-            <p>• YOlov7 모델 학습을 위�� GPU 기반 CUDA 환경 구축</p>
+            <p>• YOlov7 모델 학습을 위한 GPU 기반 CUDA 환경 구축</p>
             <p>• 데이터 수집, 가공 및 전처리 후 학습/검증/테스트 데이터셋으로 분할하여 모델 학습 수행</p>
             <p>• 하이퍼파라미터 튜닝과 테스트 데이터셋을 통한 모델 성능 최적화 및 검증</p>
 
@@ -311,7 +311,7 @@ export default function Resume() {
           <p className="text-gray-500">AI 실리콘벨리 해커톤 (팀원 5명)</p>
           <p>• VGG19 모델 튜닝으로 이미지 합성 기능 구현, RabbitMQ와 Celery를 통한 비동기 처리 및 CUDA GPU 사용으로 다중 요청 안정적 처리</p>
           <p>• 백엔드 개발자로서 gpu 서버 과부화, api 요청 횟수 증가로 인한 오류, 성능 튜닝 등 다양한 서버 문제를 경험</p>
-          <p>• 팀장으로서 5명의 개발자와 방��성 수립 및 설계, 다른 직군과의 협업 등을 경험</p>
+          <p>• 팀장으로서 5명의 개발자와 방향성 수립 및 설계, 다른 직군과의 협업 등을 경험</p>
           <p>• dalle 2 출시와 함께 서비스 수요 감소로 서비스 중단</p>
           <Image
               src="/project/Untitled(8).png"
