@@ -375,7 +375,7 @@ export default function Resume() {
           </div>
           <Separator />
           <div>
-            <h3 className="font-semibold text-blue-500">Korea University of Technology and Education / Bachelor's Degree in Computer Engineering</h3>
+            <h3 className="font-semibold text-blue-500">Tech University of Korea / Bachelor's Degree in Computer Engineering</h3>
             <p className="text-sm text-muted-foreground">2020.03 ~ 2023.02</p>
           </div>
         </CardContent>
