@@ -187,12 +187,20 @@ export default function Resume() {
             <p>• 알고리즘 성능 비교 실험을 위한 AWS 서버 250대에 Ansible 병렬 실행을 적용해 배포 시간 N배 단축</p>  
             <p>• LemonSqueezy 결제 시스템 연동, 구독형 시스템의 access token 관리 DB 설계 및 풀스택 개발</p>
             <Image
+              src="/project/Untitled Diagram.drawio.png"
+              alt="Diagram"
+              width={3000} // Adjust the width as needed
+              height={9000} // Adjust the height as needed
+              className="rounded-lg shadow-md mt-4" // Optional styling
+            />
+            <Image
               src="/project/image1.png"
               alt="Quantitative Trading Project"
               width={3000} // Adjust the width as needed
               height={9000} // Adjust the height as needed
               className="rounded-lg shadow-md mt-4" // Optional styling
             />
+
           </div>
           <Separator />
           <div className="flex items-center gap-4"> 
@@ -214,12 +222,12 @@ export default function Resume() {
           <div>
             <p className="text-sm text-muted-foreground">2024.1 ~ 2024.4</p>
             <p className="text-gray-500">콴텍 (자동화 팀원 3명)</p>
-            <li>Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
-            <li>주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
-            <li>주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
-            <li>병목 지점을 식별하고 비효율적인 연산을 최적화하여 데이터 처리 속도 N% 향상</li>
-            <li>CPU, 메모, 네트워크 래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 설정으로 문제 발생 시 즉각적인 대응 가능</li>
-            <li>하이브리드 / 고가용성 Kubernetes 설계 구축</li>
+              <li>Dagster를 활용하여 미국 및 한국 주식 리밸런싱을 매월 N회 동으로 수행하는 오케스트레이션 워크플로우 구축</li>
+              <li>주식 시장 데이터 수집 및 분석을 위한 ETL 작업을 설계하고, 정해진 시간에 주기적으로 실행되도록 설정</li>
+              <li>주식 리밸런싱 알고리즘의 성능을 최적화하기 위해 Scalene 프로파일러를 사용하여 코드의 실행 시간 및 메모리 사용 패턴을 분석</li>
+              <li>병목 지점을 식별하고 비효율적인 연산을 최적화하여 데이터 처리 속도 N% 향상</li>
+              <li>CPU, 메모, 네트워크 래픽, MySQL 쿼리 응답 시간 등의 지표를 포함한 모니터링 대시보드 생성 및 알림 설정으로 문제 발생 시 즉각적인 대응 가능</li>
+              <li>하이브리드 / 고가용성 Kubernetes 설계 구축</li>
             <Image
               src="/project/Screenshot from 2024-04-02 17-57-15.png"
               alt="Quantitative-trading Service"
