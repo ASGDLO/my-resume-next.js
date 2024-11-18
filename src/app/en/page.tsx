@@ -183,11 +183,18 @@ export default function Resume() {
             <p>• Applied Ansible parallel execution on 250 AWS servers for algorithm performance comparison experiments, reducing deployment time by N times</p>  
             <p>• Integrated LemonSqueezy payment system, designed and developed subscription system's access token management DB as a full-stack developer</p>
             <Image
+              src="/project/Untitled Diagram.drawio.png"
+              alt="Diagram"
+              width={3000} // Adjust the width as needed
+              height={9000} // Adjust the height as needed
+              className="rounded-lg shadow-md mt-4" // Optional styling
+            />
+            <Image
               src="/project/image1.png"
               alt="Quantitative Trading Project"
-              width={3000}
-              height={9000}
-              className="rounded-lg shadow-md mt-4"
+              width={3000} // Adjust the width as needed
+              height={9000} // Adjust the height as needed
+              className="rounded-lg shadow-md mt-4" // Optional styling
             />
           </div>
           <Separator />
