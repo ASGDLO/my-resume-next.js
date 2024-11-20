@@ -186,6 +186,7 @@ export default function Resume() {
             <p>• RESTful API를 통해 거래 신호를 수신하고, 사용자 계정에 따라 자동 매매를 수행하는 로직 개발</p> 
             <p>• 알고리즘 성능 비교 실험을 위한 AWS 서버 250대에 Ansible 병렬 실행을 적용해 배포 시간 N배 단축</p>  
             <p>• LemonSqueezy 결제 시스템 연동, 구독형 시스템의 access token 관리 DB 설계 및 풀스택 개발</p>
+            <p>• 베이지안 옵티마이저를 활용한 하이퍼파라미터 최적화 및 성능 개선</p>
             <Image
               src="/project/Untitled Diagram.drawio.png"
               alt="Diagram"

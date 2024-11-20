@@ -182,6 +182,8 @@ export default function Resume() {
             <p>• Developed logic that receives trading signals via RESTful API and performs automatic trading according to user accounts</p> 
             <p>• Applied Ansible parallel execution on 250 AWS servers for algorithm performance comparison experiments, reducing deployment time by N times</p>  
             <p>• Integrated LemonSqueezy payment system, designed and developed subscription system's access token management DB as a full-stack developer</p>
+            <p>• Hyperparameter Optimization and Performance Improvement Using Bayesian Optimizer</p>
+
             <Image
               src="/project/Untitled Diagram.drawio.png"
               alt="Diagram"
