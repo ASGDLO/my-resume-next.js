@@ -52,7 +52,7 @@ export default function Resume() {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 <ContactItem icon={<Mail className="h-5 w-5" />} text="hoon33710@gmail.com" />
-                <ContactItem icon={<Phone className="h-5 w-5" />} text="010-2733-3710" /> 
+                <ContactItem icon={<Phone className="h-5 w-5" />} text="010-" /> 
               </div>
               <div className="flex flex-wrap justify-center lg:justify-start gap-4">
                 <SocialButton href="https://github.com/ASGDLO" icon={<Github />} label="GitHub" />
