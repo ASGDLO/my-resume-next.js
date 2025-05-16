@@ -26,10 +26,10 @@ export default function Resume() {
         <LanguageSwitcher />
         {/* Download PDF Button */}
         {/* <Button asChild variant="outline" size="lg"> */}
-          <a href="/Resume(en).pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
-            <BookOpen className="mr-2 h-5 w-5" />
+          {/* <a href="/Resume(en).pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center"> */}
+            {/* <BookOpen className="mr-2 h-5 w-5" /> */}
             {/* Download PDF */}
-          </a>
+          {/* </a> */}
         {/* </Button> */}
       </header>
 
