@@ -25,12 +25,12 @@ export default function Resume() {
       <header className="flex flex-col sm:flex-row justify-end items-center p-4 space-y-4 sm:space-y-0 sm:space-x-4">
         <LanguageSwitcher />
         {/* Download PDF Button */}
-        <Button asChild variant="outline" size="lg">
+        {/* <Button asChild variant="outline" size="lg"> */}
           <a href="/Resume(en).pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
             <BookOpen className="mr-2 h-5 w-5" />
             {/* Download PDF */}
           </a>
-        </Button>
+        {/* </Button> */}
       </header>
 
       {/* <Card className="mb-12">
