@@ -28,7 +28,7 @@ export default function Resume() {
         <Button asChild variant="outline" size="lg">
           <a href="/Resume(en).pdf" download aria-label="Download Korean Resume as PDF" className="flex items-center">
             <BookOpen className="mr-2 h-5 w-5" />
-            Download PDF
+            {/* Download PDF */}
           </a>
         </Button>
       </header>
